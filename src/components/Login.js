@@ -40,9 +40,6 @@ const Container = styled.div`
     }
 `
 
-const Content = styled.div`
-
-`
 
 const CTA = styled.div`
     max-width: 650px;
