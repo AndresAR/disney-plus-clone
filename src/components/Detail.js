@@ -21,9 +21,8 @@ function Detail() {
                 history.push('/')
             }
         })
-    }, [])
+    }, [history, id])
 
-    console.log(movie)
     return (
         <Container>
             {movie && (

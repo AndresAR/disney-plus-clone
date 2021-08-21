@@ -27,7 +27,7 @@ function Header() {
                 history.push('/');
             }
         })
-    }, []);
+    }, [dispatch, history]);
 
     const SignIn = () => {
         auth.signInWithPopup(provider)
