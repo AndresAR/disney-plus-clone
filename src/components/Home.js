@@ -20,7 +20,7 @@ function Home() {
                 setMovies(tempMovies)
             );
         })
-    }, [])
+    }, [dispatch])
 
 
     return (
